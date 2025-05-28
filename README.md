@@ -122,6 +122,81 @@ Bar charts were generated to visualize the effect of these parameters on model a
 
 ---
 
+## 🚀 Installation & Running Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/DTI5125---Assignment-1.git
+cd DTI5125---Assignment-1
+```
+
+### 2. Set Up the Python Environment
+
+It is recommended to use the provided virtual environment:
+
+```bash
+cd scipy-env
+source bin/activate
+```
+
+Or, create a new environment using `uv`:
+
+```bash
+uv venv .venv
+source .venv/bin/activate
+uv pip install -r ../pyproject.toml
+```
+
+### 3. Install Dependencies
+
+If not using the provided environment, install dependencies manually:
+
+```bash
+pip install -r requirements.txt
+```
+Or, with `uv`:
+```bash
+uv pip install -r requirements.txt
+```
+
+### 4. Prepare the Data
+
+Ensure the `Data/` folder contains the required abstract datasets.  
+If needed, run the data preparation notebook:
+
+```bash
+jupyter notebook data_preparation.ipynb
+```
+
+### 5. Run the Analysis
+
+- For embedding generation, model training, and evaluation:
+  ```bash
+  jupyter notebook data_transformation.ipynb
+  ```
+- For results visualization:
+  ```bash
+  jupyter notebook results_visualization.ipynb
+  ```
+- To automate the workflow (optional):
+  ```bash
+  python main.py
+  ```
+
+### 6. View Results
+
+- Visual outputs (bar charts, ROC curves) are saved in their respective folders.
+- Review the notebooks for detailed results and analysis.
+
+---
+
+**Note:**  
+- Python 3.11+ is recommended.
+- For any issues, ensure all dependencies are installed and the correct environment is activated.
+- Refer to comments in each notebook for further guidance.
+
+
 
 
 
