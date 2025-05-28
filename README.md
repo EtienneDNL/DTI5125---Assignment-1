@@ -152,12 +152,6 @@ uv pip install -r ../pyproject.toml
 
 If not using the provided environment, install dependencies manually:
 
-```bash
-pip install -r requirements.txt
-```
-Or, with `uv`:
-```bash
-uv pip install -r requirements.txt
 ```
 
 ### 4. Prepare the Data
