@@ -54,6 +54,22 @@ We tested the following **classifier models**:
 
 ---
 
+## 🥇 Champion Model
+
+The following shows the results from the classifiers used and how we selected the champion model:
+
+| Model                            | Accuracy | Precision | Recall | F1 Score |
+|----------------------------------|----------|-----------|--------|----------|
+| **BOW + SVM**                    | 0.607    | 0.610     | 0.607  | 0.608    |
+| **TFIDF + SVM**                  | 0.606    | 0.610     | 0.606  | 0.607    |
+| **Doc2Vec + SVM**                | 0.719    | 0.715     | 0.719  | 0.717    |
+| **BOW + MNB**                    | 0.744    | 0.737     | 0.744  | 0.734    |
+| **TFIDF + MNB**                  | 0.708    | 0.719     | 0.708  | 0.668    |
+| **Doc2Vec + GNB**                | 0.728    | 0.730     | 0.728  | 0.728    |
+| **Embeddings + LR (Champion)**   | 0.822    | 0.826     | 0.822  | 0.822    |
+
+---
+
 ## 🧠 Embedding Models Tested
 
 - `jinaai/jina-embeddings-v3`
